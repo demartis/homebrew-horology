@@ -1,9 +1,9 @@
 class TgTimer < Formula
   desc "A program for timing mechanical watches"
   homepage "https://tg.ciovil.li"
-  url "https://github.com/xyzzy42/tg/archive/v0.6.1-tpiepho.tar.gz"
-  sha256 "f5ad7b541a4e3c0493155025442ed1d5537480545fdc961a24372304fb61a2d5"
-  head "https://github.com/xyzzy42/tg.git", :branch => "new-stuff"
+  url "https://github.com/demartis/tg/archive/v0.6.2.tar.gz"
+  sha256 "e4a9fe485c18714e071ed1a42bdedcd4c3ea6e3dc7ef6ba4e945291fa65a3864"
+  head "https://github.com/demartis/tg.git", :branch => "new-stuff"
 
   depends_on "pkg-config" => :build
   depends_on "autoconf" => :build
